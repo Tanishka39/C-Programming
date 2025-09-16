@@ -1,0 +1,13 @@
+// Program to print odd numbers from 1 to 100
+# include <stdio.h>
+void main()
+{
+int i;
+clrscr();
+printf("Odd numbers from 1 to 100 are; \n");
+for (i=1;i<=100;i++)
+{ if (i%2!=0)
+  printf(",%d",i);
+}
+getch();
+}
